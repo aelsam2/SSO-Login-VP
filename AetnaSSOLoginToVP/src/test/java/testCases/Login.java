@@ -29,7 +29,7 @@ public class Login {
 	  Thread.sleep(3000);
 	  Assert.assertTrue(elems.loginButton.getText().contains("Login"));
 	  System.out.println("Ael");
-	  
+	  System.out.println("Sam");
   }
   
   @Test(description = "")
