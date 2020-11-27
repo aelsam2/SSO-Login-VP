@@ -28,6 +28,7 @@ public class Login {
 	  elems =new PageElems(driver);
 	  Thread.sleep(3000);
 	  Assert.assertTrue(elems.loginButton.getText().contains("Login"));
+	  System.out.println("Ael");
 	  
   }
   
